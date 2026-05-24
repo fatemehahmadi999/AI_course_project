@@ -8,8 +8,8 @@ from dataset import HistologyDataset
 from model import UNet
 
 
-DATA_DIR = "/content/drive/MyDrive/histology_project/exported_dataset"
-MODEL_DIR = Path("/Users/fatemehahmadi/Projects/AI course/Project/Project_self/models")
+DATA_DIR = "/content/drive/MyDrive/Ai_course/Project/Dataset/exported_dataset"
+MODEL_DIR = Path("/content/drive/MyDrive/Ai_course/Project/models")
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 BATCH_SIZE = 2
