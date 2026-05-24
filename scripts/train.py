@@ -14,7 +14,7 @@ MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 BATCH_SIZE = 2
 NUM_CLASSES = 4
-NUM_EPOCHS = 1
+NUM_EPOCHS = 20
 LEARNING_RATE = 1e-4
 
 
