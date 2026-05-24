@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pathology data
+*.svs
+*.tif
+*.tiff
+*.ndpi
+*.qpproj
+
+# Generated data
+exported_dataset/
+data/
+masks/
+tiles/
+
+# Models
+models/
+checkpoints/
+*.pth
+*.pt
+
+# Mac
+.DS_Store
